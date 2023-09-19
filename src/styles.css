@@ -1,0 +1,32 @@
+@import './dist/variables.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Teko:wght@300;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: Roboto, 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: var(--primary-background-color);
+}
+
+.container {
+    width: 350px;
+    margin: 50px auto;
+}
+
+ul {
+    list-style: none;
+}
+
+input:focus,
+button,
+textarea:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
